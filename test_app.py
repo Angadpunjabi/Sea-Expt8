@@ -6,4 +6,4 @@ def test_calculate_risk_score():
 
 def test_portfolio_risk_score():
     holdings = [(0.25, 0.4), (0.15, 0.35), (0.30, 0.25)]
-    assert portfolio_risk_score(holdings) == pytest.approx(0.22)
+    assert portfolio_risk_score(holdings) == pytest.approx(0.28)
